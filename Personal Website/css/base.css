@@ -1,0 +1,55 @@
+h2 {
+  color: #133b5c;
+}
+
+h3 {
+  color: #679b9b;
+}
+
+h5 {
+  color: white;
+}
+
+a {
+  margin-right: 10px;
+  color: #fcdab7;
+}
+
+p {
+  color: #637373;
+}
+
+body {
+  margin: 0;
+  background-color: #ffeadb;
+}
+
+hr {
+  margin: 5rem auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 0.5em;
+  color: #ff9a76;
+  width: 5%;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.profile-logo {
+  object-fit: cover;
+  border-radius: 50px;
+  height: 5em;
+  width: 5em;
+}
+
+.circular-container {
+  object-fit: cover;
+  border-radius: 100px;
+  height: 12em;
+  width: 12em;
+}

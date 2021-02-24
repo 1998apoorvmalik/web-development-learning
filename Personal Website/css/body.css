@@ -1,0 +1,115 @@
+.top-section {
+  position: relative;
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.top-section #main-heading {
+  color: #679b9b;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  line-height: 2;
+}
+
+.top-section #sub-heading {
+  color: #133b5c;
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: verdana, sans-serif;
+}
+
+.top-section #pro {
+  text-decoration: underline;
+}
+
+.top-section #top-cloud-image {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 15%;
+}
+
+.top-section #bottom-cloud-image {
+  position: absolute;
+  right: 20%;
+  width: 15%;
+}
+
+.top-section #mountain-image {
+  width: 70%;
+}
+
+.middle-section {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.profile {
+  text-align: center;
+  line-height: 2;
+  margin: auto;
+  width: 50%;
+}
+
+.hobby-row {
+  text-align: left;
+  margin: 5rem auto;
+  width: 50%;
+  line-height: 2;
+  overflow: auto;
+}
+
+.hobby-row #gym-image {
+  float: left;
+  margin-right: 5%;
+}
+
+.hobby-row #music-image {
+  float: right;
+  margin-left: 5%;
+}
+
+.hobby-row #meditation-image {
+  float: left;
+  margin-right: 5%;
+}
+
+.contact button {
+  margin: 2rem auto;
+  display: block;
+  background-color: #1e5f74;
+  -webkit-border-top-left-radius: 28px;
+  -moz-border-radius-topleft: 28px;
+  border-top-left-radius: 28px;
+  -webkit-border-top-right-radius: 28px;
+  -moz-border-radius-topright: 28px;
+  border-top-right-radius: 28px;
+  -webkit-border-bottom-right-radius: 28px;
+  -moz-border-radius-bottomright: 28px;
+  border-bottom-right-radius: 28px;
+  -webkit-border-bottom-left-radius: 28px;
+  -moz-border-radius-bottomleft: 28px;
+  border-bottom-left-radius: 28px;
+  text-indent: 0;
+  border: 1px solid #133b5c;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 50px;
+  line-height: 50px;
+  width: 140px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0px 1px 0px #1e5f74;
+}
+
+.contact button:hover {
+  background-color: #fcdab7;
+}
+
+.contact button:active {
+  position: relative;
+  top: 1px;
+}
